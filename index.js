@@ -6,7 +6,6 @@ const router = require("./router/router");
 
 let app = new Koa();
 
-
 app.use(KoaBody())
 app.use(Views(__dirname + "/view"),{
     extension:"html"
