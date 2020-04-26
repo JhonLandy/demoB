@@ -4,9 +4,6 @@ const fs = require("fs");
 
 let loginRouter = new Router();
 
-
-
-
 loginRouter.post("/login", ctx => {
     const loginMess = ctx.request.body;
     if (loginMess.isLogin) {
