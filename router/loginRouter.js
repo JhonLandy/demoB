@@ -17,3 +17,4 @@ loginRouter.post("/login", ctx => {
     }
 });
 
+module.exports = loginRouter;
