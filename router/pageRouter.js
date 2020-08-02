@@ -1,7 +1,7 @@
 const Router = require("koa-router");
 const data = require("../data.json");
 
-let pageRouter = new Router();
+const pageRouter = new Router();
 
 pageRouter.get("/getImages", ctx => {
     ctx.body = data['image'];

@@ -2,7 +2,7 @@ const Router = require("koa-router");
 const data = require("../data.json");
 const fs = require("fs");
 
-let loginRouter = new Router();
+const loginRouter = new Router();
 
 loginRouter.post("/login", ctx => {
     const loginMess = ctx.request.body;

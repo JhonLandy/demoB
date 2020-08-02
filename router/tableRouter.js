@@ -1,7 +1,7 @@
 const Router = require("koa-router");
 const data = require("../data.json");
 const fs = require("fs");
-let tableRouter = new Router();
+const tableRouter = new Router();
 
 tableRouter.post("/saveTableData", ctx => {
     let reqData = ctx.request.body;
